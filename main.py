@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+import os
+
+os.environ["PYTHON_VERSION"] = "3.10.5"
 
 
 # Crea una instancia de FastAPI
